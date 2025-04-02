@@ -1,6 +1,12 @@
-// Anytime a player is created we should run this code for that player. 
+/**
+ * For the sake of other ninjas, please only add code in Blocks. Otherwise you will need to create custom blocks for the javascript you want to use.
+ */
+/**
+ * Please add comments explaining the code that you want to add.
+ */
+// Anytime a player is created we should run this code for that player.
 sprites.onCreated(SpriteKind.Player, function (sprite) {
-    controller.moveSprite(sprite)
+    controller.moveSprite(sprite, 50, 50)
     sprite.setStayInScreen(true)
 })
 scene.setBackgroundColor(7)
